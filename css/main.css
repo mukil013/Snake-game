@@ -13,7 +13,7 @@ body {
 canvas {
     background: url(../media/luke-chesser-pJadQetzTkI-unsplash.jpg);
     background-size: cover;
-    box-shadow: 0 0 0 .5rem #000;
+    box-shadow: 0 0 1rem  #000;
     border-radius: 1rem;
     position: absolute;
     top: 50%;

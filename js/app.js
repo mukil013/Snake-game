@@ -58,8 +58,8 @@ class Game {
 
         // Draw the score and high score
         this.ctx.fillStyle = 'white';
-        this.ctx.font = '2rem Arial';
-        this.ctx.fillText(`Score: ${this.score}   High Score: ${this.highScore}`, 20, 40);
+        this.ctx.font = '1.2rem Arial';
+        this.ctx.fillText(`Score: ${this.score}   High Score: ${this.highScore}`, 30, 45);
 
         if (!this.gameRunning) {
             this.ctx.fillStyle = 'white';
