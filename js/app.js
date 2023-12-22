@@ -2,8 +2,8 @@ class Game {
     constructor(canvas) {
         this.canvas = canvas;
         this.ctx = canvas.getContext('2d');
-        this.gridSize = 20;
-        this.snake = [{ x: 100, y: 100 }];
+        this.gridSize = 35;
+        this.snake = [{ x: 90, y: 90 }];
         this.direction = 'right';
         this.food = this.createFood();
         this.score = 0;
