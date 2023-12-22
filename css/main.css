@@ -11,7 +11,7 @@ body {
     color: white;
 }
 canvas {
-    background: url(./media/luke-chesser-pJadQetzTkI-unsplash.jpg);
+    background: url('./media/luke-chesser-pJadQetzTkI-unsplash.jpg');
     background-size: cover;
     box-shadow: 0 0 0 .5rem #000;
     border-radius: 1rem;
