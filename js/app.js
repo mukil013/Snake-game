@@ -152,8 +152,8 @@ class Game {
     }
 
     handleWindowResize() {
-        this.canvas.width = window.innerWidth - 20; // Adjust as needed
-        this.canvas.height = window.innerHeight - 20; // Adjust as needed
+        this.canvas.width = window.innerWidth - 40; // Adjust as needed
+        this.canvas.height = window.innerHeight - 40; // Adjust as needed
         this.food = this.createFood(); // Reset food position on window resize
         this.draw();
     }
